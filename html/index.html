@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PPP – Pauls Primer Progress</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../images/ppp_favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<header>
+    <!-- <img src="../images/hero.png" alt="Hero image Web & App Development"> -->
+    <nav>
+            <a href="#bootcamp" class="link_no_underline">Bootcamp</a>
+            <a href="#html" class="link_no_underline">HTML</a>
+            <a href="#css" class="link_no_underline">CSS</a>
+            <a href="#git" class="link_no_underline">Git & Github</a>
+            <a href="#learn" class="link_no_underline">Learn to code</a>
+            <a href="#js" class="link_no_underline">Javascript</a>
+    </nav>
+    <section id="hero">
+        <a WBS href="https://www.wbscodingschool.com/" target="_blank" id="wbs_link"><h1>WBS Coding School</a><br><a href="https://www.wbscodingschool.com/web-app-development-bootcamp/" target="_blank" class="link_no_underline">Web & App Development</a></h1>
+        <h2>My Primer Week </h2>
+        <p><span id="name">Paul Lorber</span></p>
+        <p>WBS Coding School is a 12-week coding bootcamp in Berlin, Germany. The program teaches HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, MySQL, Git, and more. The program is designed to prepare students for a career in web development.</p>
+    </section>
+
+</header>
+<aside>
+    <h3>Bibliography</h3>
+    <a class="bib">
+        <h6>This very cool effect for the tabs</h6>
+        <a href="https://codepen.io/chriscoyier/pen/bGNxzdd" target="_blank">codepen </a>
+        <a href="https://css-tricks.com/functional-css-tabs-revisited/" target="_blank">CSS tricks</a>
+        <img src="../images/tabs_effect.png" alt="tabs effect" class="bib_img">
+    </div>
+    <div class="bib">
+        <h6>and more websites</h6>
+        <a href="https://stackoverflow.com/" target="_blank">stackoverflow</a>
+        <a href="https://forum.freecodecamp.org/" target="_blank">freecodecamp</a>
+        <a href="https://www.w3schools.com/" target="_blank">w3 schools</a>
+        <a href="https://developer.mozilla.org/" target="_blank">mozilla dev</a>
+        <a href="https://fonts.google.com/" target="_blank">google fonts</a>
+        <a href="https://chat.openai.com" target="_blank">chatgpt</a>
+        <a href="https://github.com/features/copilot" target="_blank">github copilot</a>
+        <p>but most importantly ...</p>
+        <a href="https://learn.wbscodingschool.com/courses/primer-web-app/" target="_blank"><span class="rainbow_text">WBS Coding School – Primer</span></a>
+    </div>
+</aside>
+<main> 
+    <article id="bootcamp" tabindex="0">
+        <div class="tags">
+            <div class="heading">
+                <h2>Bootcamp</h2>
+            </div>
+            <div class="tag">
+                <input type="radio" id="bootcamp_what" name="bootcamp" checked>
+                <label for="bootcamp_what">what is a bootcamp?</label>
+                <div class="content">
+                    <p>"A bootcamp is a fast-paced type of education to take your life to the next level" -WBS Primer</p>
+                    <p>" A coding bootcamp provide short-term, intesive training focuse on building job-ready skills" -Google</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="bootcamp_learn" name="bootcamp" checked>
+                <label for="bootcamp_learn">learning is a process</label>
+                <div class="content">
+                    <p>learning strategies</p>
+                    <ol>
+                        <li>taking notes</li>
+                        <li>concept mapping</li>
+                        <li>space your practice</li>
+                        <li>Interleaving: process of mixing multiple subjects or topics while studying to improve learning</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="html" tabindex="0">
+        <div class="tags">
+            <div class="heading">
+                <h2>HTML</h2>
+            </div>
+            <div class="tag">
+                <input type="radio" id="html_elements" name="html" checked>
+                <label for="html_elements">elements and structure</label>
+                <div class="content">
+                    <p>HTML stands for HyperText Markup Language</p>
+        <pre><code><span class="html html_doctype">&lt;!DOCTYPE&gt;</span>
+        <span class="html html_html">&lt;html&gt;</span>
+            <span class="html html_head">&lt;head&gt;</span>
+                <span class="html html_title">&lt;title&gt;Page Title&lt;/title&gt;</span>
+            <span class="html html_head">&lt;/head&gt;</span>
+            <span class="html html_body">&lt;body&gt;</span>
+                <span class="html html_heading">&lt;h1&gt;This is a Heading&lt;/h1&gt;</span>
+                <span class="html html_paragraph">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span>
+            <span class="html html_body">&lt;/body&gt;</span>
+        <span class="html html_html">&lt;/html&gt;</span>
+<span class="html html_comment comment">&lt;!-- This is a comment --&gt;</span></code></pre>
+                    <p>They can have attributes inside the &lt;&gt; that modify their behavior.</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="html_forms" name="html" checked>
+                <label for="html_forms">forms</label>
+                <div class="content">
+                    <p>HTML forms are used to collect user input. Key elements include:</p>
+                    <pre><code><span class="html forms_form">&lt;form&gt;</span>
+<span class="html forms_input">&lt;input&gt; type="password" name="password"</span>
+<span class="html forms_comment comment">&lt;!-- this element is optional --&gt; </span><span class="html forms_label">&lt;label for="password"&gt; Enter password&lt;/label&gt;</span>
+<span class="html forms_comment comment">&lt;!-- this one also --&gt; </span><span class="html forms_textarea">&lt;textarea&gt;&lt;/textarea&gt;</span>
+<span class="html forms_comment comment">&lt;!--  --&gt; </span><span class="html forms_button">&lt;button type="submit"&gt;&lt;/button&gt;</span>
+<span class="html forms_form">&lt;/form&gt;</span></code></pre>
+                    <p>Forms send data to a server for processing, typically using GET or POST methods.</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="html_tables" name="html" checked>
+                <label for="html_tables">tables</label>
+                <div class="content">
+                    <p>Tables are used for displaying tabular data.</p>
+                    <pre><code><span class="html tables_table">&lt;table&gt;</span>
+    <span class="html tables_thead">&lt;thead&gt;</span>
+        <span class="html tables_tr">&lt;tr&gt;</span>
+            <span class="html tables_th">&lt;th&gt;Name&lt;/th&gt;</span>
+        <span class=" html tables_tr">&lt;/tr&gt;</span>
+    <span class="html tables_thead">&lt;/thead&gt;</span>
+        <span class="html tables_tr">&lt;tr&gt;</span>
+            <span class="html tables_td">&lt;td&gt;Paul&lt;/td&gt;</span>
+        <span class="html tables_tr">&lt;/tr&gt;</span>
+<span class="html tables_table">&lt;table&gt;</span></code></pre>
+                    <p>Tables can have headers, footers, and bodies.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="css" tabindex="0">
+        <div class="tags">
+            <div class="heading">
+                <h2>CSS</h2>
+            </div>
+            <div class="tag">
+                <input type="radio" id="css_syntax" name="css" checked>
+                <label for="css_syntax">syntax</label>
+                <div class="content">
+                    <p>some syntax</p>
+                    <p>more syntax</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="css_selectors" name="css" checked>
+                <label for="css_selectors">selectors</label>
+                <div class="content">
+                    <p>some selectors</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="css_visual" name="css" checked>
+                <label for="css_visual">visual rules</label>
+                <div class="content">
+                    <p>some tables</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="css_box" name="css" checked>
+                <label for="css_box">box model</label>
+                <div class="content">
+                    <p>some box model</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="css_responsive" name="css" checked>
+                <label for="css_responsive">responsiveness</label>
+                <div class="content">
+                    <p>some responsiveness</p>
+                </div>
+            </div>
+
+        </div>
+    </article>
+    <article id="git" tabindex="0">
+        <div class="tags">
+            <div class="heading">
+                <h2>GIT</h2>
+            </div>
+            <div class="tag">
+                <input type="radio" id="git_git" name="git" checked>
+                <label for="git_git">git</label>
+                <div class="content">
+                    <p>some git</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="git_github" name="git" checked>
+                <label for="git_github">github</label>
+                <div class="content">
+                    <p>some github</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="code" tabindex="0">
+        <div class="tags">
+            <div class="heading">
+                <h2>learn to code</h2>
+            </div>
+            <div class="tag">
+                <input type="radio" id="code_variables" name="code" checked>
+                <label for="code_variables">variables</label>
+                <div class="content">
+                    <p>some variables</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="code_data" name="code" checked>
+                <label for="code_data">data types</label>
+                <div class="content">
+                    <p>some data types</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="code_operators" name="code" checked>
+                <label for="code_operators">operators</label>
+                <div class="content">
+                    <p>some operators</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="code_lists" name="code" checked>
+                <label for="code_lists">lists</label>
+                <div class="content">
+                    <p>some lists</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="code_loops" name="code" checked>
+                <label for="code_loops">loops</label>
+                <div class="content">
+                    <p>some loops</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="js" tabindex="0">
+        <div class="tags">
+            <div class="heading">
+                <h2>Javascript</h2>
+            </div>
+            <div class="tag">
+                <input type="radio" id="js_variables" name="js" checked>
+                <label for="js_variables">variables</label>
+                <div class="content">
+                    <p>some variables</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="js_conditionals" name="js" checked>
+                <label for="js_conditionals">conditionals</label>
+                <div class="content">
+                    <p>some conditionals</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="js_loops" name="js" checked>
+                <label for="js_loops">loops</label>
+                <div class="content">
+                    <p>some loops</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="js_arrays" name="js" checked>
+                <label for="js_arrays">arrays</label>
+                <div class="content">
+                    <p>some lists</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="js_functions" name="js" checked>
+                <label for="js_functions">functions</label>
+                <div class="content">
+                    <p>some functions</p>
+                </div>
+            </div>
+            <div class="tag">
+                <input type="radio" id="js_scope" name="js" checked>
+                <label for="js_scope">scope</label>
+                <div class="content">
+                    <p>some scope</p>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<footer>
+        <p>(still) 2023 done by Paul Lorber</p>
+        <p>not all rights reserved</p>
+</footer>
+</body>
+</html>
